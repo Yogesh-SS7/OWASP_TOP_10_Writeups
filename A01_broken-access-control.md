@@ -144,18 +144,17 @@ if ($userRole !== 'admin') {
 // Administrative functionality continues here.
 ```
 
-## Evidence to Include
-
-Add redacted screenshots from the authorised environment:
+## Evidence
 
 1. Standard account registration or login.
-2. Burp Suite response showing the post-login redirect value.
+![here is the first view of the landing page](/images/A01-evidence/Login-page.png)
+(/images/A01-evidence/Post-register.png)
+2. Burp Suite response the post-login redirect value.
+![Here is the response from the burp suite](/images/A01-evidence/intial_Request.png)
 3. The original redirect path with the non-administrator value.
 4. The modified redirect path with the administrator value.
 5. Successful access to the administrative dashboard.
-6. The account-management page showing the privilege change.
-
-Redact session cookies, authentication tokens, usernames, email addresses, IP addresses, and any unique lab identifiers.
+6. The account-management page showing the privilege change
 
 ## Key Lessons
 
