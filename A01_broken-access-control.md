@@ -147,14 +147,14 @@ if ($userRole !== 'admin') {
 ## Evidence
 
 1. Standard account registration or login.
-![here is the first view of the landing page](/images/A01-evidence/Login-page.png)
-(/images/A01-evidence/Post-register.png)
+![here is the first view of the landing page](A01-evidence/Login-page.png)
+![2nd image](A01-evidence/Post-register.png)
 2. Burp Suite response the post-login redirect value.
 ![Here is the response from the burp suite](/images/A01-evidence/intial_Request.png)
-3. The original redirect path with the non-administrator value.
-4. The modified redirect path with the administrator value.
-5. Successful access to the administrative dashboard.
-6. The account-management page showing the privilege change
+3. ![The original redirect path with the non-administrator value.](/images/A01-evidence/Post-discovery.png)
+4. ![The modified redirect path with the administrator value.](/images/A01-evidence/Post-changinapi.png)
+5. ![Successful access to the administrative dashboard.](/images/A01-evidence/Burp_view.png)
+6. ![The account-management page showing the privilege change](/images/A01-evidence/Page-obtained.png)
 
 ## Key Lessons
 
