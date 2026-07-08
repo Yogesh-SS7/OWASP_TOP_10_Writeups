@@ -152,7 +152,7 @@ if ($userRole !== 'admin') {
 2. Burp Suite response the post-login redirect value.
 ![Here is the response from the burp suite](/A01-evidence/intial_Request.png)
 3. ![The original redirect path with the non-administrator value.](/A01-evidence/Post-discovery.png)
-4. ![The modified redirect path with the administrator value.](/A01-evidence/Post-changinapi.png)
+4. ![The modified redirect path with the administrator value.](/A01-evidence/Post-changeinapi.png)
 5. ![Successful access to the administrative dashboard.](/A01-evidence/Burp_view.png)
 6. ![The account-management page showing the privilege change](/A01-evidence/Page-obtained.png)
 
